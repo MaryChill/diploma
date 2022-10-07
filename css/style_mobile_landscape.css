@@ -1,0 +1,27 @@
+.popup{
+    display: none;
+}
+.logo{
+    margin: auto;
+
+}
+.banner_text{
+margin: auto;
+
+}
+.menu_icon{
+    top: -50px;
+}
+.container_top {
+    padding-left: 15px;
+}
+.trends{
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+
+.trend{
+    width: calc(50% - 2px);
+    height: 245px;
+    margin-bottom: 4px;
+}

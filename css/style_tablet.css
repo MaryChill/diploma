@@ -3,6 +3,9 @@ body{
     /* width: 100vw;
     margin: 0 auto; */
 }
+.popup{
+    display: none;
+}
 .header {
     background-image: url("../img/banner-bg-tablet.jpg");
     height: 395px;
@@ -10,9 +13,7 @@ body{
     margin-bottom: 20px;
     background-position: center;
 }
-.container_top{
-    justify-content: space-evenly;
-}
+
 .logo{
     width: 160px;
     margin-top: 42px;
@@ -71,12 +72,18 @@ flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: 60px;
     margin-left: 5px;
-     max-width: 381px;
+    border-bottom: 3px solid  #eeeeee;
+    padding-bottom: 20px;
+     /* max-width: 381px; */
+  }
+  .section_content{
+    max-width: 381px; 
   }
   .pic{
     /* max-width: 100%; */
      height: 302px;
     margin-bottom: 13px;
+    margin-right: 0px;
   }
   .section_teg{
     font-size: 0.9rem;
@@ -91,6 +98,9 @@ flex-wrap: wrap;
   .section_info {
     margin-bottom: 14px;
 }
+/* .section_text_block{
+    max-width: 381px; 
+} */
 .aside{
     /* margin-right: 10px; */
     margin: 0 auto;
