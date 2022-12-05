@@ -14,7 +14,7 @@ body{
     background-image: url("../img/banner-mobile.jpg");
     background-position: center;
      height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -24,17 +24,22 @@ body{
 }
 
 .logo{
+    display: flex;
+    justify-content: center;
     width: 268px;
     margin-top: 224px;
-    margin-left: 36px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .list {
     display: none;
 }
-/* .menu_icon{
-    display: none;
-} */
+
+.nav{
+   
+    position: static;
+}
 .menu_icon{
     display: block;
     filter: invert(99%) sepia(40%) saturate(923%) hue-rotate(199deg) 
@@ -44,7 +49,8 @@ body{
    /* margin-left: 260px;
    margin-top: -300px; */
    position: absolute;
-   top: -300px;
+   z-index: 2;
+   top: 10px;
    right: 10px;
 }
 .banner_text{
@@ -83,7 +89,7 @@ body{
     /* margin-left: 5px; */
 }
 .pic{
-    max-width: 337px;
+    /* max-width: 337px; */
     /* display: block; */
     width: calc(100% - 30px);
     height: auto;
@@ -91,7 +97,7 @@ body{
 }
 .section_content{
     margin: 0 auto;
-    max-width: 367px;
+    /* max-width: 367px; */
     width: 100%;
 }
 .section_teg{
@@ -133,10 +139,24 @@ body{
     margin: 0;
 }
 .aside{
-    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100vw;
+    /* margin: 0 auto; */
+    /* padding: 0 auto; */
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.search_form{
-    width: 100%;
+.mail_form{
+    width: 100vw;
+}
+.mail_field{
+    width: 100vw!important;
+}
+.field{
+    width: calc(100vw - 48px);
+}
+.search{
+    width: 99vw;
 }
 .products{
     margin: 0 auto;
